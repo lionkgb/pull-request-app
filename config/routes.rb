@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
  resources :posts
- get "/" => 'payments#index'
+ get "/payments" => 'payments#index'
  get "/pages", to: 'pages#index'
 
 end
